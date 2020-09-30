@@ -5,7 +5,7 @@ def accept_matrix(R,C):
             A1.append(int(input("Enter number : ")))
         A.append(A1)
 
-def show_matrix(R,C):
+def display_matrix(R,C):
     for i in range(R):
         for j in range(C):
             print(A[i][j], end=" ")
@@ -51,7 +51,7 @@ while(1):
         C = int(input("Enter the number of columns : "))
         accept_matrix(R,C)
     elif (z == 2):
-        show_matrix(R,C)
+        display_matrix(R,C)
     elif (z == 3):
         R = int(input("Enter the number of rows : "))
         C = int(input("Enter the number of columns : "))
