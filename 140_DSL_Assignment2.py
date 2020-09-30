@@ -4,7 +4,7 @@ def accept_matrix(R,C):
         for j in range(C):
             A1.append(int(input("Enter number : ")))
         A.append(A1)
-
+#all the functions here are defined by using algorithmic approach
 def display_matrix(R,C):
     for i in range(R):
         for j in range(C):
@@ -36,7 +36,7 @@ def saddle_point(R,C):
             print("Saddle point not found ")
             break
         print()
-
+#while loop for iterating properly 
 
 while(1):
     print("\n1.Accept matrix \n2.Show matrix \n3.Saddle point")
